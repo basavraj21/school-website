@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .home {
+    text-align: center;
+  }
+  
+  .header {
+    margin: 20px 0;
+  }
+  
+  .logo {
+    max-width: 150px; /* Adjust as needed */
+    margin-bottom: 10px;
+  }
+  
+  .school-name {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .carousel {
+    max-width: 100%;
+  }
+  
+  .carousel-img {
+    max-height: 400px; /* Adjust as needed to shorten the height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio */
+  }
+
+  .carousel-caption {
+    color: black; /* Set caption text color to black */
+    background-color: rgba(255, 255, 255, 0.5); /* Optional: semi-transparent white background for better readability */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color or any color you prefer */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .gallery {
+    padding: 20px;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery-item {
+    text-align: center;
+  }
+  
+  .gallery-item img,
+  .gallery-item video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .gallery-item video {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  
